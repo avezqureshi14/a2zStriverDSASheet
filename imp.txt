@@ -15,6 +15,11 @@ O(n log n) - linearithmic space
 O(n^2) - quadratic space
 O(2^n) - exponential space
 
+🔥 This formula is used to avoid the problem of integer overflow during binary search 
+    int mid = low + (high-low) / 2;
+
+🔥 Condition for Search in sorted and rotated array (target >= nums[0] && target <= nums[pivot - 1])
+
 🔥 Floor and Ceil
 🎯 To find the floor you would perform a binary search to find the largest element in the array that is less than or equal to the target element.
 🎯 To find the ceil you would perform a binary search to find the smallest element in the array that is greater than or equal to the target element.
